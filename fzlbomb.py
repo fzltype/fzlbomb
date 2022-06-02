@@ -1,7 +1,21 @@
 import requests, random, os, json, re
 from user_agent import generate_user_agent
 from colorama import Fore, Style
-from text import *
+import random
+colors = random.choice(['\033[1;31m','\033[1;32m','\033[1;33m','\033[1;34m','\033[1;35m','\033[1;36m'])
+banner = colors+"""
+███████╗███████╗██╗      ██████╗  ██████╗ ███╗   ███╗██████╗
+██╔════╝╚══███╔╝██║      ██╔══██╗██╔═══██╗████╗ ████║██╔══██╗
+█████╗    ███╔╝ ██║█████╗██████╔╝██║   ██║██╔████╔██║██████╔╝
+██╔══╝   ███╔╝  ██║╚════╝██╔══██╗██║   ██║██║╚██╔╝██║██╔══██╗
+██║     ███████╗███████╗ ██████╔╝╚██████╔╝██║ ╚═╝ ██║██████╔╝
+╚═╝     ╚══════╝╚══════╝ ╚═════╝  ╚═════╝ ╚═╝     ╚═╝╚═════╝
+Статьи —— https://teletype.in/@articlesfzltype
+"""
+
+cursor = colors+"fzlbomb>> "
+
+
 
 
 os.system("clear")
