@@ -9,7 +9,7 @@ banner = colors+"""
 ▐█▐█•▐▀▀▄  ▄█▀▄ ██▪ ██▪ ▐█▀▀█▄ ▄█▀▄ ▐█ ▌▐▌▐█·▐█▀▀█▄
  ███ ▐█•█▌▐█▌.▐▌██▌.██▌.██▄▪▐█▐█▌.▐▌██ ██▌▐█▌██▄▪▐█
 . ▀  .▀  ▀ ▀█▄▀▪▀▀▀ ▀▀▀ ·▀▀▀▀  ▀█▄▀▪▀▀  █▪▀▀▀·▀▀▀▀ 
-Статьи —— https://teletype.in/@articlesfzltype
+Статьи —— https://teletype.in/@vroffarticles
 """
 
 cursor = colors+"fzlbomb>> "
